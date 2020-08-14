@@ -1,5 +1,5 @@
 # TA-Drovorub
-Simple Splunk UF detection for Drovorub kernel module
+Simple Splunk UF detection for Drovorub kernel module and for UEFI Secure Boot
 
 This takes the probing detection method from the end of https://media.defense.gov/2020/Aug/13/2002476465/-1/-1/0/CSA_DROVORUB_RUSSIAN_GRU_MALWARE_AUG_2020.PDF and converts it into a scripted input for any Splunk Universal Forwarder running on a Linux server or endpoint. This detection method is not foolproof but looks for the presence of the standard host-based communication method between the kernel module and the client module.
 

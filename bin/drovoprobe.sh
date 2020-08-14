@@ -1,9 +1,9 @@
 #! /bin/sh
 # Drovorub checker 
-# brodsky@splunk.com to output more friendly for Splunk UF Scripted Input
 # wraps detection probe from https://media.defense.gov/2020/Aug/13/2002476465/-1/-1/0/CSA_DROVORUB_RUSSIAN_GRU_MALWARE_AUG_2020.PDF into Splunk friendly format
 # also checks to see if we can find evidence of Secure Boot
-VERSION=0.2-SplunkUF
+# brodsky@splunk.com
+# VERSION=0.2-SplunkUF
 
 # set a date format so we can output a date for each line
 DATETIME=$(date '+%Y-%m-%d %H:%M:%S %Z')
